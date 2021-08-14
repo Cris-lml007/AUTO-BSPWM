@@ -1,0 +1,2 @@
+rofi.modi:              keys,drun,window,run
+rofi.theme: /usr/share/rofi/themes/lb.rasi

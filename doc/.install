@@ -1,0 +1,18 @@
+#!/bin/bash
+q=`pwd`
+cp -r doc/polybar /opt/
+cd /opt/polybar/
+mkdir build
+cd build
+cmake ..
+make -j$(nproc)
+make install
+cd
+w=`pwd`
+cd $q
+cd
+cd polybar-themes
+chmod +x setup.sh
+./setup.sh
+cd ~/.config/
+chmod +x ~/.config/polybar/hack/scripts/{check-network,checkupdates,colors-dark.sh,colors-light.sh,color-switch.sh,launcher.sh,powermenu.sh,pywal.sh,random.sh,updates.sh}

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "este mensaje solo se mostrara una vez, pon atencion :v"
+echo "Si lograste ver este mensaje, felicidades, logro instalar con exito el gestor de ventanas bspwm, para poder abrir una terminal presione la tecla windows + enter."
+echo "para poder abrir el menu de rofi presione windows + d, la tecla windows es la tecla predefinida para todas los comandos, si conbina las teclas windows + ctrl + direccionales podra mover tener control de una ventana, para saber todas y añadir mas funciones puede abrir o editar el archivo ~/.config/sxhkd/sxhkdrc."
+echo "tambien se instalo mpd que es un reproductor de musica en segundo plano, para poder tener un control visual use ncmpcpp, para poder configurar sus musicas edite los archivos ~/.mpd/mpd.conf y ~/.ncmpcpp/config."
+rm ~/.config/bspwm/.mensaje

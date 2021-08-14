@@ -1,0 +1,28 @@
+mpd_host = "localhost"
+mpd_port = "8888"
+mpd_music_dir = "/home/metallica/Música"
+ 
+#Configuración Playlist
+playlist_display_mode = "columns"
+browser_display_mode = "columns"
+search_engine_display_mode = "columns"
+song_status_format = "%t{ - %a}{ - %b}{ (%y)}"
+song_window_title_format = "MPD: {%a - }{%t}|{%f}"
+song_columns_list_format = "(7)[185]{l} (28)[white]{a} (35)[50]{t} (10)[white]{b}"
+user_interface = "alternative"
+progressbar_look = "●▮."
+colors_enabled = "yes"
+progressbar_color = "83"
+volume_color = "white"
+header_window_color = "30"
+main_window_color = "83"
+ 
+#Configuración Visualizador
+visualizer_fifo_path = "/tmp/mpd.fifo"
+visualizer_output_name = "my_fifo"
+visualizer_sync_interval = "30"
+visualizer_in_stereo = "yes"
+visualizer_type = "spectrum"
+visualizer_look = "+¶"
+#visualizer_look = "●▮"
+visualizer_color = "40,green,yellow,white"
